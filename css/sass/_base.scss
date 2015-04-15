@@ -130,6 +130,13 @@ li {
                 margin-top: -10rem;
                 box-shadow: 0 0 1px #fff;
             }
+            &.qr{
+                display: block;
+                width: 40%;
+                top:65%;
+                left: 50%;
+                margin-left: -20%;
+            }
         }
         h4 {
             display: block;

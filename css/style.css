@@ -561,6 +561,12 @@ ul, li {
       border-radius: 50%;
       margin-top: -10rem;
       box-shadow: 0 0 1px #fff; }
+    .slide_in_list.s1 img.qr {
+      display: block;
+      width: 40%;
+      top: 65%;
+      left: 50%;
+      margin-left: -20%; }
     .slide_in_list.s1 h4 {
       display: block;
       width: 50%;
@@ -769,5 +775,9 @@ ul, li {
 @media only screen and (max-width: 321px) {
   .slide_in_list.s1 h4 {
     font-size: 2.2rem; } }
+
+@media only screen and (max-width: 768px) {
+  .slide_in_list.s1 img.qr {
+    display: none; } }
 
 
