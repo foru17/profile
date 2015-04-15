@@ -778,6 +778,8 @@ ul, li {
 
 @media only screen and (max-width: 768px) {
   .slide_in_list.s1 img.qr {
+    display: none; }
+  .slide_in_list.s1 h6 {
     display: none; } }
 
 
