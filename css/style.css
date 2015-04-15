@@ -568,6 +568,15 @@ ul, li {
       font-size: 2.8rem;
       top: 50%;
       margin-left: -25%; }
+    .slide_in_list.s1 h6 {
+      display: block;
+      width: 50%;
+      left: 50%;
+      font-size: 1.4rem;
+      height: 2rem;
+      line-height: 2rem;
+      top: 58%;
+      margin-left: -25%; }
   .slide_in_list.s2 {
     background: #009DF6; }
     .slide_in_list.s2 .intro {
@@ -756,5 +765,9 @@ ul, li {
   box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden; }
+
+@media only screen and (max-width: 321px) {
+  .slide_in_list.s1 h4 {
+    font-size: 2.2rem; } }
 
 
