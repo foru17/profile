@@ -29,3 +29,13 @@
         opacity: .1;
     }
 }
+
+// 平移效果
+@-webkit-keyframes animate-bg {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 283px 212px;
+    }
+}
